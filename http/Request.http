@@ -1,0 +1,15 @@
+POST http://localhost:5000/api/greeting/hello
+Content-Type: application/json
+
+{
+    "name": "wk"
+}
+
+###
+
+POST http://localhost:5000/api/greeting/byte
+Content-Type: application/json
+
+{
+    "name": "wk"
+}
