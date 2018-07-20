@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/hello/helloPost
+Content-Type: application/json
+
+{
+    "hello": "wk"
+}
+
+###
+
+GET http://localhost:5000/api/hello/helloGet?name=wk
+

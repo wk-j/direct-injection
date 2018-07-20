@@ -5,8 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Providers/A.fs" />
+    <Compile Include="Services/MyService.fs" />
+    <Compile Include="Providers/ActionDependencyModelProvider.fs" />
     <Compile Include="Controllers/ValuesController.fs" />
+    <Compile Include="Controllers/HelloController.fs" />
     <Compile Include="Startup.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
